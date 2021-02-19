@@ -1,0 +1,24 @@
+[Desktop Entry]
+Name=Compact ShutDown
+Comment=Compact ShutDown widget
+
+
+Icon=system-shutdown
+Type=Service
+ServiceTypes=Plasma/Applet
+
+X-KDE-PluginInfo-Author=Alexey Varfolomeev
+X-KDE-PluginInfo-Email=varlesh@gmail.com
+X-KDE-PluginInfo-Version=1.0
+X-KDE-PluginInfo-Website=https://github.com/varlesh/org.kde.plasma.compact-shutdown
+X-KDE-PluginInfo-Category=Utilities
+X-KDE-PluginInfo-Depends=
+X-KDE-PluginInfo-License=GPL
+X-KDE-PluginInfo-EnabledByDefault=true
+X-KDE-PluginInfo-Name=org.kde.plasma.compact-shutdown
+
+X-Plasma-API=declarativeappletscript
+X-Plasma-MainScript=ui/main.qml
+X-Plasma-Requires-FileDialog=Unused
+X-Plasma-Requires-LaunchApp=Unused
+X-Plasma-DefaultSize=250,200
