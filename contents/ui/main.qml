@@ -36,18 +36,6 @@ Item {
     }
 
     PlasmaCore.DataSource {
-        id: pmEngine
-        engine: "powermanagement"
-        connectedSources: ["PowerDevil", "Sleep States"]
-
-        function performOperation(what) {
-            var service = serviceForSource("PowerDevil")
-            var operation = service.operationDescription(what)
-            service.startOperationCall(operation)
-        }
-    }
-
-    PlasmaCore.DataSource {
         id: executable
         engine: "executable"
         connectedSources: []
@@ -68,6 +56,14 @@ Item {
 
     function action_shutDown() {
         executable.exec('qdbus org.kde.ksmserver /KSMServer logout 0 2 2')
+    }
+    
+    function action_susPend() {
+         executable.exec('qdbus org.kde.Solid.PowerManagement /org/freedesktop/PowerManagement Suspend')
+    }
+    
+    function action_hiberNate() {
+         executable.exec('qdbus org.kde.Solid.PowerManagement /org/freedesktop/PowerManagement Hibernate')
     }
 
     PlasmaComponents.Highlight {
@@ -97,7 +93,7 @@ Item {
                 text: i18n("Suspend")
                 highlight: delegateHighlight
                 icon: "system-suspend"
-                onClicked: pmEngine.performOperation("suspend")
+                onClicked: action_susPend()
             }
 
             ListDelegate {
@@ -105,7 +101,7 @@ Item {
                 text: i18n("Hibernate")
                 highlight: delegateHighlight
                 icon: "system-suspend-hibernate"
-                onClicked: pmEngine.performOperation("hibernate")
+                onClicked: action_hiberNate()
             }
 
             ListDelegate {
