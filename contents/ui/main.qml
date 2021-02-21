@@ -17,7 +17,7 @@ Item {
     Layout.fillWidth: true
     Layout.fillHeight: true
     width: 135
-    height: 150
+    height: 160
 
     Plasmoid.compactRepresentation: Item {
         PlasmaCore.IconItem {
@@ -53,6 +53,10 @@ Item {
     function action_reBoot() {
         executable.exec('qdbus org.kde.ksmserver /KSMServer logout 0 1 2')
     }
+    
+    function action_lockScreen() {
+        executable.exec('qdbus org.freedesktop.ScreenSaver /ScreenSaver Lock')
+    }
 
     function action_shutDown() {
         executable.exec('qdbus org.kde.ksmserver /KSMServer logout 0 2 2')
@@ -74,7 +78,7 @@ Item {
 
     Plasmoid.fullRepresentation: Item {
         Layout.preferredWidth: 135
-        Layout.preferredHeight: 150
+        Layout.preferredHeight: 160
 
         ColumnLayout {
             id: column
@@ -87,6 +91,13 @@ Item {
                 highlight: delegateHighlight
                 icon: "system-log-out"
                 onClicked: action_logOut()
+            }
+            ListDelegate {
+                id: lockButton
+                text: i18n("Lock Screen")
+                highlight: delegateHighlight
+                icon: "system-lock-screen"
+                onClicked: action_lockScreen()
             }
             ListDelegate {
                 id: suspendButton

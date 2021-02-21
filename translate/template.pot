@@ -18,22 +18,20 @@ msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "X-Generator: Poedit 2.0.6\n"
 
-#: ../contents/ui/main.qml:90
 msgid "Logout"
 msgstr ""
 
-#: ../contents/ui/main.qml:97
 msgid "Suspend"
 msgstr ""
 
-#: ../contents/ui/main.qml:105
 msgid "Hibernate"
 msgstr ""
 
-#: ../contents/ui/main.qml:113
 msgid "Reboot"
 msgstr ""
 
-#: ../contents/ui/main.qml:120
 msgid "Shutdown"
+msgstr ""
+
+msgid "Lock Screen"
 msgstr ""
