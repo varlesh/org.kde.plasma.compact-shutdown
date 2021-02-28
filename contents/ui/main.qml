@@ -16,8 +16,8 @@ Item {
 
     Layout.fillWidth: true
     Layout.fillHeight: true
-    width: 135
-    height: 160
+    width: 180
+    height: 180
 
     Plasmoid.compactRepresentation: Item {
         PlasmaCore.IconItem {
@@ -77,8 +77,10 @@ Item {
     }
 
     Plasmoid.fullRepresentation: Item {
-        Layout.preferredWidth: 135
-        Layout.preferredHeight: 160
+        Layout.fillWidth: true
+        Layout.fillHeight: true
+        width: 180
+        height: 180
 
         ColumnLayout {
             id: column
