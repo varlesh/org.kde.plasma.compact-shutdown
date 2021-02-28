@@ -1,8 +1,7 @@
 # Translation of Compact Shutdown in LANGUAGE
 # Copyright (C) 2021
-# This file is distributed under the same license as the Calendar WL package.
-#
 # Chalkim <jiangyi2012@outlook.com>, 2021.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: compact-shutdown\n"

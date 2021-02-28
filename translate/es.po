@@ -1,37 +1,36 @@
 # Translation of Compact Shutdown in LANGUAGE
 # Copyright (C) 2021
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Alejo C.S. <alej.c.s@gmail.com>, 2021.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: compact-shutdown\n"
-"Report-Msgid-Bugs-To: https://github.com/varlesh/org.kde.plasma.compact-"
-"shutdown\n"
+"Report-Msgid-Bugs-To: https://github.com/varlesh/org.kde.plasma.compact-shutdown\n"
 "POT-Creation-Date: 2021-02-18 13:14+0400\n"
-"PO-Revision-Date: 2021-02-21 10:41+0400\n"
-"Last-Translator: \n"
-"Language-Team: \n"
-"Language: de\n"
+"PO-Revision-Date: 2021-02-28 00:41-0300\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 2.3\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es\n"
 
 msgid "Logout"
-msgstr "Abmelden"
+msgstr "Cerrar sesión"
 
 msgid "Suspend"
-msgstr "Auszusetzen"
+msgstr "Dormir"
 
 msgid "Hibernate"
-msgstr "Ruhezustand"
+msgstr "Hibernar"
 
 msgid "Reboot"
-msgstr "Neustart"
+msgstr "Reiniciar"
 
 msgid "Shutdown"
-msgstr "Ausschalten"
+msgstr "Apagar"
 
 msgid "Lock Screen"
-msgstr "Bildschirm Sperren"
+msgstr "Bloquear sesión"

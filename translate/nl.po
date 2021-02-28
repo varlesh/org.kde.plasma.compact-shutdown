@@ -1,7 +1,6 @@
 # Translation of Compact Shutdown in LANGUAGE
 # Copyright (C) 2021
-# This file is distributed under the same license as the Calendar WL package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Heimen Stoffels <vistausss@outlook.com>, YEAR.
 #
 msgid ""
 msgstr ""
