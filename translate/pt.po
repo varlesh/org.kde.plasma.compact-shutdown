@@ -30,7 +30,7 @@ msgid "Reboot"
 msgstr "Reiniciar"
 
 msgid "Shutdown"
-msgstr "Desligamento"
+msgstr "Desligar"
 
 msgid "Lock Screen"
-msgstr "Tela de Bloqueio"
+msgstr "Bloquear"
