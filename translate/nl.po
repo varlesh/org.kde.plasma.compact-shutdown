@@ -14,7 +14,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 2.3\n"
-"Last-Translator: Heimen Stoffels <vistausss@outlook.com>\n"
+"Last-Translator: Heimen Stoffels <vistausss@fastmail.com>\n"
 "Language: nl\n"
 
 msgid "Logout"
@@ -36,7 +36,7 @@ msgid "Lock Screen"
 msgstr "Scherm vergrendelen"
 
 msgid "Appearance"
-msgstr "Uiterlijk"
+msgstr "Vormgeving"
 
 msgid "Show buttons:"
 msgstr "Knoppen tonen:"
