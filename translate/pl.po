@@ -36,7 +36,7 @@ msgid "Lock Screen"
 msgstr "Ekran Blokady"
 
 msgid "Appearance"
-msgstr ""
+msgstr "Wygląd"
 
 msgid "Show buttons:"
-msgstr ""
+msgstr "Pokaż przyciski:"

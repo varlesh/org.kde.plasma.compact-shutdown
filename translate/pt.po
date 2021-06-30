@@ -36,7 +36,7 @@ msgid "Lock Screen"
 msgstr "Bloquear"
 
 msgid "Appearance"
-msgstr ""
+msgstr "Aparência"
 
 msgid "Show buttons:"
-msgstr ""
+msgstr "Mostrar botões:"

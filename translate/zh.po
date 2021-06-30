@@ -36,7 +36,7 @@ msgid "Lock Screen"
 msgstr "锁屏"
 
 msgid "Appearance"
-msgstr ""
+msgstr "外貌"
 
 msgid "Show buttons:"
-msgstr ""
+msgstr "显示按钮:"
