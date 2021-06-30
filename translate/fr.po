@@ -34,3 +34,9 @@ msgstr "Arrêt"
 
 msgid "Lock Screen"
 msgstr "Écran Verrouillé"
+
+msgid "Appearance"
+msgstr ""
+
+msgid "Show buttons:"
+msgstr ""

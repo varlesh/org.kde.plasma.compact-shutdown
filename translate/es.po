@@ -34,3 +34,9 @@ msgstr "Apagar"
 
 msgid "Lock Screen"
 msgstr "Bloquear pantalla"
+
+msgid "Appearance"
+msgstr ""
+
+msgid "Show buttons:"
+msgstr ""

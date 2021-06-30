@@ -34,3 +34,9 @@ msgstr "Wyłącz"
 
 msgid "Lock Screen"
 msgstr "Ekran Blokady"
+
+msgid "Appearance"
+msgstr ""
+
+msgid "Show buttons:"
+msgstr ""

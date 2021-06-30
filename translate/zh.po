@@ -34,3 +34,9 @@ msgstr "关机"
 
 msgid "Lock Screen"
 msgstr "锁屏"
+
+msgid "Appearance"
+msgstr ""
+
+msgid "Show buttons:"
+msgstr ""

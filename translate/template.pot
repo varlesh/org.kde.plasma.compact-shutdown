@@ -34,3 +34,9 @@ msgstr ""
 
 msgid "Lock Screen"
 msgstr ""
+
+msgid "Appearance"
+msgstr ""
+
+msgid "Show buttons:"
+msgstr ""

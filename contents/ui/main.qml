@@ -13,6 +13,13 @@ import org.kde.plasma.extras 2.0 as PlasmaExtras
 
 Item {
     id: root
+    
+    property bool showLogout: plasmoid.configuration.showLogout
+    property bool showLockscreen: plasmoid.configuration.showLockscreen
+    property bool showSuspend: plasmoid.configuration.showSuspend
+    property bool showHibernate: plasmoid.configuration.showHibernate
+    property bool showReboot: plasmoid.configuration.showReboot
+    property bool showShutdown: plasmoid.configuration.showShutdown
 
     Layout.fillWidth: true
     Layout.fillHeight: true
@@ -87,12 +94,14 @@ Item {
             anchors.fill: parent
 
             spacing: 0
+            
             ListDelegate {
                 id: logoutButton
                 text: i18n("Logout")
                 highlight: delegateHighlight
                 icon: "system-log-out"
                 onClicked: action_logOut()
+                visible: showLogout
             }
             ListDelegate {
                 id: lockButton
@@ -100,6 +109,7 @@ Item {
                 highlight: delegateHighlight
                 icon: "system-lock-screen"
                 onClicked: action_lockScreen()
+                visible: showLockscreen
             }
             ListDelegate {
                 id: suspendButton
@@ -107,6 +117,7 @@ Item {
                 highlight: delegateHighlight
                 icon: "system-suspend"
                 onClicked: action_susPend()
+                visible: showSuspend
             }
 
             ListDelegate {
@@ -115,6 +126,7 @@ Item {
                 highlight: delegateHighlight
                 icon: "system-suspend-hibernate"
                 onClicked: action_hiberNate()
+                visible: showHibernate
             }
 
             ListDelegate {
@@ -123,6 +135,7 @@ Item {
                 highlight: delegateHighlight
                 icon: "system-reboot"
                 onClicked: action_reBoot()
+                visible: showReboot
             }
             ListDelegate {
                 id: shutdownButton
@@ -130,6 +143,7 @@ Item {
                 highlight: delegateHighlight
                 icon: "system-shutdown"
                 onClicked: action_shutDown()
+                visible: showShutdown
             }
         }
     }

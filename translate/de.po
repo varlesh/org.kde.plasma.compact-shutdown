@@ -34,3 +34,9 @@ msgstr "Ausschalten"
 
 msgid "Lock Screen"
 msgstr "Bildschirm Sperren"
+
+msgid "Appearance"
+msgstr ""
+
+msgid "Show buttons:"
+msgstr ""

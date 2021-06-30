@@ -34,3 +34,9 @@ msgstr "Afsluiten"
 
 msgid "Lock Screen"
 msgstr "Scherm vergrendelen"
+
+msgid "Appearance"
+msgstr ""
+
+msgid "Show buttons:"
+msgstr ""

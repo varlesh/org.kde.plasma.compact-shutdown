@@ -34,3 +34,9 @@ msgstr "Spegni"
 
 msgid "Lock Screen"
 msgstr "Blocca lo schermo"
+
+msgid "Appearance"
+msgstr ""
+
+msgid "Show buttons:"
+msgstr ""

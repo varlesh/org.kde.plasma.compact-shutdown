@@ -35,3 +35,9 @@ msgstr "Выключить"
 
 msgid "Lock Screen"
 msgstr "Заблокировать"
+
+msgid "Appearance"
+msgstr "Внешний вид"
+
+msgid "Show buttons:"
+msgstr "Показывать кнопки:"

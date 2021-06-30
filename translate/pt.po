@@ -34,3 +34,9 @@ msgstr "Desligar"
 
 msgid "Lock Screen"
 msgstr "Bloquear"
+
+msgid "Appearance"
+msgstr ""
+
+msgid "Show buttons:"
+msgstr ""
