@@ -1,0 +1,43 @@
+# Translation of Compact Shutdown in LANGUAGE
+# Copyright (C) 2021
+# This file is distributed under the same license as the Calendar WL package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: compact-shutdown\n"
+"Report-Msgid-Bugs-To: https://github.com/varlesh/org.kde.plasma.compact-shutdown\n"
+"POT-Creation-Date: 2021-02-18 13:14+0400\n"
+"PO-Revision-Date: 2021-02-21 10:42+0400\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: uk_UK\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 2.3\n"
+
+msgid "Logout"
+msgstr "Вийти"
+
+msgid "Suspend"
+msgstr "Режим очікування"
+
+msgid "Hibernate"
+msgstr "Гібернація"
+
+msgid "Reboot"
+msgstr "Перезавантажити"
+
+msgid "Shutdown"
+msgstr "Вимкнути"
+
+msgid "Lock Screen"
+msgstr "Заблокувати"
+
+msgid "Appearance"
+msgstr "Зовнішній вигляд"
+
+msgid "Show buttons:"
+msgstr "Показувати кнопки:"
