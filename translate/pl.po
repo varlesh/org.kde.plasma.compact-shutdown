@@ -21,19 +21,19 @@ msgid "Logout"
 msgstr "Wyloguj"
 
 msgid "Suspend"
-msgstr "Zawieszać"
+msgstr "Uśpij"
 
 msgid "Hibernate"
-msgstr "Hibernować"
+msgstr "Zahibernuj"
 
 msgid "Reboot"
-msgstr "Restart"
+msgstr "Uruchom ponownie"
 
 msgid "Shutdown"
 msgstr "Wyłącz"
 
 msgid "Lock Screen"
-msgstr "Ekran Blokady"
+msgstr "Zablokuj"
 
 msgid "Appearance"
 msgstr "Wygląd"
