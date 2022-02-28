@@ -1,0 +1,43 @@
+# Translation of Compact Shutdown in Traditional Chinese (TW)
+# Copyright (C) 2022
+# Frank Kuo <frankkuo@protonmail.com>, 2022
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: compact-shutdown\n"
+"Report-Msgid-Bugs-To: https://github.com/varlesh/org.kde.plasma.compact-"
+"shutdown\n"
+"POT-Creation-Date: 2021-02-18 13:14+0400\n"
+"PO-Revision-Date: 2022-02-26 01:13+0800\n"
+"Last-Translator: Frank Kuo <frankkuo@protonmail.com>\n"
+"Language-Team: \n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.0.1\n"
+
+msgid "Logout"
+msgstr "登出"
+
+msgid "Suspend"
+msgstr "休眠"
+
+msgid "Hibernate"
+msgstr "冬眠"
+
+msgid "Reboot"
+msgstr "重新啟動"
+
+msgid "Shutdown"
+msgstr "關機"
+
+msgid "Lock Screen"
+msgstr "鎖定螢幕"
+
+msgid "Appearance"
+msgstr "外觀"
+
+msgid "Show buttons:"
+msgstr "顯示按鈕："
