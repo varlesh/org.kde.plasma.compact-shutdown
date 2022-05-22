@@ -80,6 +80,7 @@ Item {
     PlasmaComponents.Highlight {
         id: delegateHighlight
         visible: false
+        hovered: true
         z: -1 // otherwise it shows ontop of the icon/label and tints them slightly
     }
 
