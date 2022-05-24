@@ -21,22 +21,22 @@ msgid "Logout"
 msgstr "Abmelden"
 
 msgid "Suspend"
-msgstr "Auszusetzen"
+msgstr "Standby-Modus"
 
 msgid "Hibernate"
 msgstr "Ruhezustand"
 
 msgid "Reboot"
-msgstr "Neustart"
+msgstr "Neu starten"
 
 msgid "Shutdown"
-msgstr "Ausschalten"
+msgstr "Herunterfahren"
 
 msgid "Lock Screen"
-msgstr "Bildschirm Sperren"
+msgstr "Sperren"
 
 msgid "Appearance"
-msgstr "Aussehen"
+msgstr "Erscheinungsbild"
 
 msgid "Show buttons:"
-msgstr "Schaltflächen anzeigen:"
+msgstr "Knöpfe anzeigen:"
