@@ -80,15 +80,15 @@ Item {
     PlasmaComponents.Highlight {
         id: delegateHighlight
         visible: false
-        hovered: true
+//         hovered: true
         z: -1 // otherwise it shows ontop of the icon/label and tints them slightly
     }
 
     Plasmoid.fullRepresentation: Item {
         Layout.fillWidth: true
         Layout.fillHeight: true
-        width: 180
-        height: 180
+        Layout.preferredWidth: plasmoid.configuration.width * PlasmaCore.Units.devicePixelRatio
+        Layout.preferredHeight: plasmoid.configuration.height * PlasmaCore.Units.devicePixelRatio
 
         ColumnLayout {
             id: column

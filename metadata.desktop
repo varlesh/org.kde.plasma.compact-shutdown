@@ -9,7 +9,7 @@ ServiceTypes=Plasma/Applet
 
 X-KDE-PluginInfo-Author=Alexey Varfolomeev
 X-KDE-PluginInfo-Email=varlesh@gmail.com
-X-KDE-PluginInfo-Version=20220630
+X-KDE-PluginInfo-Version=20220719
 X-KDE-PluginInfo-Website=https://github.com/varlesh/org.kde.plasma.compact-shutdown
 X-KDE-PluginInfo-Category=Utilities
 X-KDE-PluginInfo-Depends=
