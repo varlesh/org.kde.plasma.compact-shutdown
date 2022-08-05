@@ -40,3 +40,6 @@ msgstr "外貌"
 
 msgid "Show buttons:"
 msgstr "显示按钮:"
+
+msgid "Size:"
+msgstr "大小:"

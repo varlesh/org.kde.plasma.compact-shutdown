@@ -40,3 +40,6 @@ msgstr "Erscheinungsbild"
 
 msgid "Show buttons:"
 msgstr "Knöpfe anzeigen:"
+
+msgid "Size:"
+msgstr "Größe:"

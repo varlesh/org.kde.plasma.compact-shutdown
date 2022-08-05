@@ -40,3 +40,6 @@ msgstr "Görünüm"
 
 msgid "Show buttons:"
 msgstr "Gösterilecek butonlar:"
+
+msgid "Size:"
+msgstr "Boyut:"
