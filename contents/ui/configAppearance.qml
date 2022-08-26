@@ -10,6 +10,7 @@ Item {
     property alias cfg_showSuspend: showSuspend.checked
     property alias cfg_showHibernate: showHibernate.checked
     property alias cfg_showReboot: showReboot.checked
+    property alias cfg_showKexec: showKexec.checked
     property alias cfg_showShutdown: showShutdown.checked
     property alias cfg_width: widthSpinBox.value
     property alias cfg_height: heightSpinBox.value
@@ -42,6 +43,11 @@ Item {
         CheckBox {
             id: showReboot
             text: i18n('Reboot')
+            Layout.columnSpan: 2
+        }
+        CheckBox {
+            id: showKexec
+            text: i18n('Kexec Reboot')
             Layout.columnSpan: 2
         }
         CheckBox {

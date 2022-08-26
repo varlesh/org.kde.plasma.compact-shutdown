@@ -21,6 +21,9 @@
         <entry name="showReboot" type="Bool">
             <default>true</default>
         </entry>
+        <entry name="showKexec" type="Bool">
+            <default>false</default>
+        </entry>
         <entry name="showShutdown" type="Bool">
             <default>true</default>
         </entry>
