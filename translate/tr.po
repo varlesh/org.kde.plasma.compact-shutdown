@@ -43,3 +43,6 @@ msgstr "Gösterilecek butonlar:"
 
 msgid "Size:"
 msgstr "Boyut:"
+
+msgid "Kexec Reboot"
+msgstr "Kexec Yeniden Başlat"

@@ -43,3 +43,6 @@ msgstr "Mostra pulsanti:"
 
 msgid "Size:"
 msgstr "Dimensione:"
+
+msgid "Kexec Reboot"
+msgstr "Kexec Riavvia"

@@ -43,3 +43,6 @@ msgstr "Knöpfe anzeigen:"
 
 msgid "Size:"
 msgstr "Größe:"
+
+msgid "Kexec Reboot"
+msgstr "Kexec Neu starten"

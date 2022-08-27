@@ -43,3 +43,6 @@ msgstr ""
 
 msgid "Size:"
 msgstr ""
+
+msgid "Kexec Reboot"
+msgstr ""

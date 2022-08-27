@@ -43,3 +43,6 @@ msgstr "Mostrar botões:"
 
 msgid "Size:"
 msgstr "Tamanho:"
+
+msgid "Kexec Reboot"
+msgstr "Kexec Reiniciar"

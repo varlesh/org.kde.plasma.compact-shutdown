@@ -44,3 +44,6 @@ msgstr "표시할 단추:"
 
 msgid "Size:"
 msgstr "크기:"
+
+msgid "Kexec Reboot"
+msgstr "Kexec 다시 시작"
