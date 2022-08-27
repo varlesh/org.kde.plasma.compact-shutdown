@@ -146,7 +146,7 @@ Item {
 
             ListDelegate {
                 id: kexecButton
-                text: i18n("kexec Reboot")
+                text: i18n("Kexec Reboot")
                 highlight: delegateHighlight
                 icon: "system-reboot"
                 onClicked: action_kexec()
