@@ -19,6 +19,7 @@ Item {
     property bool showSuspend: plasmoid.configuration.showSuspend
     property bool showHibernate: plasmoid.configuration.showHibernate
     property bool showReboot: plasmoid.configuration.showReboot
+    property bool showKexec: plasmoid.configuration.showKexec
     property bool showShutdown: plasmoid.configuration.showShutdown
 
     Layout.fillWidth: true
@@ -59,6 +60,10 @@ Item {
 
     function action_reBoot() {
         executable.exec('qdbus org.kde.ksmserver /KSMServer logout 0 1 2')
+    }
+
+    function action_kexec() {
+        executable.exec('qdbus --system org.freedesktop.systemd1 /org/freedesktop/systemd1 org.freedesktop.systemd1.Manager.StartUnit kexec.target replace-irreversibly')
     }
     
     function action_lockScreen() {
@@ -138,6 +143,16 @@ Item {
                 onClicked: action_reBoot()
                 visible: showReboot
             }
+
+            ListDelegate {
+                id: kexecButton
+                text: i18n("kexec Reboot")
+                highlight: delegateHighlight
+                icon: "system-reboot"
+                onClicked: action_kexec()
+                visible: showKexec
+            }
+
             ListDelegate {
                 id: shutdownButton
                 text: i18n("Shutdown")
