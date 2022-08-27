@@ -45,5 +45,5 @@ msgstr "Показывать кнопки:"
 msgid "Size:"
 msgstr "Размер:"
 
-msgid "Kexec перезагрузка"
-msgstr ""
+msgid "Kexec Reboot"
+msgstr "Kexec перезагрузка"
