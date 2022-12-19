@@ -18,31 +18,31 @@ msgstr ""
 "X-Generator: Poedit 2.0.6\n"
 
 msgid "Logout"
-msgstr ""
+msgstr "تسجيل الخروج"
 
 msgid "Suspend"
-msgstr ""
+msgstr "سكون"
 
 msgid "Hibernate"
-msgstr ""
+msgstr "اسبات"
 
 msgid "Reboot"
-msgstr ""
+msgstr "اعادة التشغيل"
 
 msgid "Shutdown"
-msgstr ""
+msgstr "ايقاف التشغيل"
 
 msgid "Lock Screen"
-msgstr ""
+msgstr "قفل الشاشة"
 
 msgid "Appearance"
-msgstr ""
+msgstr "المظهر"
 
 msgid "Show buttons:"
-msgstr ""
+msgstr "عرض الأزرار"
 
 msgid "Size:"
-msgstr ""
+msgstr "الحجم"
 
 msgid "Kexec Reboot"
-msgstr ""
+msgstr "امر اعادة التشغيل"
