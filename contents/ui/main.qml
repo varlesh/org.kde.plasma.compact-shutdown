@@ -55,31 +55,38 @@ Item {
     }
 
     function action_logOut() {
+        plasmoid.expanded = false
         executable.exec('qdbus org.kde.ksmserver /KSMServer logout 0 0 2')
     }
 
     function action_reBoot() {
+        plasmoid.expanded = false
         executable.exec('qdbus org.kde.ksmserver /KSMServer logout 0 1 2')
     }
 
     function action_kexec() {
+        plasmoid.expanded = false
         executable.exec('qdbus --system org.freedesktop.systemd1 /org/freedesktop/systemd1 org.freedesktop.systemd1.Manager.StartUnit kexec.target replace-irreversibly')
     }
     
     function action_lockScreen() {
+        plasmoid.expanded = false
         executable.exec('qdbus org.freedesktop.ScreenSaver /ScreenSaver Lock')
     }
 
     function action_shutDown() {
+        plasmoid.expanded = false
         executable.exec('qdbus org.kde.ksmserver /KSMServer logout 0 2 2')
     }
     
     function action_susPend() {
-         executable.exec('qdbus org.kde.Solid.PowerManagement /org/freedesktop/PowerManagement Suspend')
+        plasmoid.expanded = false
+        executable.exec('qdbus org.kde.Solid.PowerManagement /org/freedesktop/PowerManagement Suspend')
     }
     
     function action_hiberNate() {
-         executable.exec('qdbus org.kde.Solid.PowerManagement /org/freedesktop/PowerManagement Hibernate')
+        plasmoid.expanded = false
+        executable.exec('qdbus org.kde.Solid.PowerManagement /org/freedesktop/PowerManagement Hibernate')
     }
 
     PlasmaComponents.Highlight {
