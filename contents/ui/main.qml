@@ -30,7 +30,7 @@ Item {
     Plasmoid.compactRepresentation: Item {
         PlasmaCore.IconItem {
             anchors.fill: parent
-            source: "system-shutdown"
+            source: plasmoid.configuration.useCustomButtonImage ? plasmoid.configuration.customButtonImage : plasmoid.configuration.icon
         }
 
         MouseArea {
@@ -85,7 +85,7 @@ Item {
     PlasmaComponents.Highlight {
         id: delegateHighlight
         visible: false
-//         hovered: true
+        // hovered: true
         z: -1 // otherwise it shows ontop of the icon/label and tints them slightly
     }
 
@@ -163,4 +163,5 @@ Item {
             }
         }
     }
+
 }
